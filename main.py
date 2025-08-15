@@ -54,7 +54,7 @@ def main():
                     destroyed_shots.append(shot)
 
         for destroyed_asteroid in destroyed_asteroids:
-            destroyed_asteroid.kill()
+            destroyed_asteroid.split(asteroidField)
 
         for destroyed_shot in destroyed_shots:
             destroyed_shot.kill()
